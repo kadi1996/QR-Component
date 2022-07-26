@@ -1,0 +1,67 @@
+/* 
+Befehl zum starten von SCSS
+Eingabe: sass --watch (pfad zur main.scss) (pfad zur style.css)
+
+sass --watch assets/scss/main.scss assets/css/style.css */
+
+
+/* - White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) */
+
+/* font-family: 'Outfit', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* 
+##################################
+        GENERAL
+##################################
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    font-family: 'Outfit';
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: hsl(212, 45%, 89%);
+}
+
+
+/* 
+##################################
+        MAIN
+##################################
+*/
+
+main {
+    background: white;
+    margin: 10rem 30%;
+    border-radius: 15px;
+}
+
+img {
+    width: 70%;
+    margin: 50px 0 0 15%;
+    border-radius: 15px;
+}
+
+p {
+    text-align: center;
+    padding: 5px 26% 25px 26%;
+    color: hsl(220, 15%, 55%);
+}
+
+h1 {
+    text-align: center;
+    padding: 15px 15%;
+}
